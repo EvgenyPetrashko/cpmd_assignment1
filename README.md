@@ -1,16 +1,29 @@
-# cpmd_assignment1
+# CPMDWithF Assignment1
 
-A new Flutter project.
+This is simple android application build on flutter, where user can get random/by category/(user defined by query) joke. App uses https://api.chucknorris.io/ api.
 
-## Getting Started
+# Content
 
-This project is a starting point for a Flutter application.
+- In first screen user can get random joke or select some concrete category
+![Alt text](/Presentation/photo_2022-02-19_21-16-48.jpg)
+![Alt text](/Presentation/photo_2022-02-19_21-17-03.jpg)
 
-A few resources to get you started if this is your first Flutter project:
+- In the second screen user can input some words, and application will try to find matching with Chuck Norris jokes.
+![Alt text](/Presentation/photo_2022-02-19_21-17-08.jpg)
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+- Also here is possibility to open particular job in the browser
+![Alt text](/Presentation/photo_2022-02-19_21-17-13.jpg)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+# Demo
+![Alt text](/Presentation/animation.gif)
+
+# Required libraries:
+
+http: 0.13.4 (for working with api)
+json_annotation: ^4.4.0 (creating json serializable classes)
+url_launcher: ^6.0.20 (Launching browser)
+json_serializable: ^6.1.4 
+build_runner: 2.1.7 (Building private methods from json serializable class)
+
+# APK: [Link](app-release.apk)
